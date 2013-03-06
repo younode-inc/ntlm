@@ -14,7 +14,7 @@
  * Copyright (C) 2012  Joshua M. Clulow <josh@sysmgr.org>
  */
 
-var $ = require('../lib/smbhash').ntlm;
+var $ = require('..');
 
 var GOOD = [
   { messages: [

@@ -1,7 +1,6 @@
 {
-  "name": "smbhash",
-  "version": "0.0.1",
-  "dependencies": {},
+  "name": "ntlm",
+  "version": "0.1.0",
   "devDependencies": {
     "nodeunit": "*"
   },
@@ -12,10 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jclulow/node-smbhash"
+    "url": "https://github.com/tcr/node-ntlm"
   },
-  "engines": [ "node" ],
-  "main": "lib/smbhash.js",
-  "description": "Samba LM/NT Hash Library",
-  "homepage": "https://github.com/jclulow/node-smbhash"
+  "engines": [
+    "node"
+  ],
+  "main": "lib/ntlm.js",
+  "description": "NTLM authentication and Samba LM/NT hash library",
+  "homepage": "https://github.com/tcr/node-ntlm"
 }
