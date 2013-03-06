@@ -1,4 +1,4 @@
-# node-smbhash: Samba LM/NT Hash Library
+# node-ntlm, NTLM authentication and Samba LM/NT hash library
 
 ## Introduction
 
