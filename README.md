@@ -39,7 +39,6 @@ ntlmrequest(url, {
     'Authorization': ntlm.challengeHeader(hostname, domain),
   }
 }, function(err, res) {
-  // Generate Type 3 to send as authentication to server:
   ntlmrequest(url, {
     headers: {
       'Authorization': ntlm.responseHeader(res, url, domain, username, password)
